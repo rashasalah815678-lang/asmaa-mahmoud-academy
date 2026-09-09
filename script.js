@@ -53,7 +53,7 @@ async function initSupabase() {
 
     if (
         !SUPABASE_PUBLISHABLE_KEY ||
-        SUPABASE_PUBLISHABLE_KEY === "ضعي_هنا_Publishable_Key"
+        SUPABASE_PUBLISHABLE_KEY === "sb_publishable_b_Z2bjPI-ZwN0D11CMHPWA_Zi-mDV_l"
     ) {
         return null;
     }
