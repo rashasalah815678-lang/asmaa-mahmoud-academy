@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        منصة أسماء محمود التفاعلية
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style2.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     شريط التنقل
+===================================================== -->
+
+<nav class="navbar">
+
+    <div class="brand">
+
+        <div class="brand-logo">
+            أ
+        </div>
+
+        <div>
+
+            <h2>
+                أسماء محمود
+            </h2>
+
+            <span>
+                INTERACTIVE ACADEMY
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="nav-links">
+
+        <button
+            class="nav-btn active"
+            onclick="switchView('landing')"
+        >
+            🏠 الرئيسية
+        </button>
+
+
+        <button
+            class="nav-btn"
+            onclick="switchView('courses')"
+        >
+            📚 المواد
+        </button>
+
+
+        <button
+            class="nav-btn"
+            onclick="switchView('achievements')"
+        >
+            🏆 الإنجازات
+        </button>
+
+
+        <button
+            class="nav-btn"
+            onclick="switchView('admin')"
+        >
+            🎓 لوحة أسماء
+        </button>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =====================================================
+     الرئيسية
+===================================================== -->
+
+<section
+    id="landing"
+    class="view-section active"
+>
+
+
+    <div class="hero">
+
+        <div class="hero-content">
+
+            <span class="academy-badge">
+                ✨ بإشراف وتأليف: أ. أسماء محمود
+            </span>
+
+
+            <h1>
+                منصة أسماء محمود
+                <br>
+                <strong>
+                    التفاعلية
+                </strong>
+            </h1>
+
+
+            <p>
+                تعلّم القرآن والعلوم الإسلامية واللغة العربية
+                بطريقة حديثة وتفاعلية.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <button
+                    class="primary-btn"
+                    onclick="switchView('courses')"
+                >
+                    🚀 ابدأ التعلم
+                </button>
+
+
+                <button
+                    class="secondary-btn"
+                    onclick="switchView('achievements')"
+                >
+                    🏆 إنجازاتي
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="hero-card-icon">
+                🌟
+            </div>
+
+            <h3>
+                أهلاً بكِ في أكاديمية أسماء محمود
+            </h3>
+
+            <p>
+                رحلة تعليمية تجمع بين العلم
+                والتفاعل والإنجاز.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- المميزات -->
+
+    <div class="section-heading">
+
+        <span>
+            لماذا الأكاديمية؟
+        </span>
+
+        <h2>
+            تعلّم بطريقة مختلفة
+        </h2>
+
+    </div>
+
+
+    <div class="features-grid">
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                📚
+            </div>
+
+            <h3>
+                مواد متنوعة
+            </h3>
+
+            <p>
+                القرآن والتجويد والعقيدة والفقه
+                والحديث والتفسير واللغة العربية.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                🎯
+            </div>
+
+            <h3>
+                تعلم تفاعلي
+            </h3>
+
+            <p>
+                دروس واختبارات وتحديات تساعد
+                على تثبيت المعلومات.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                🏆
+            </div>
+
+            <h3>
+                نقاط وإنجازات
+            </h3>
+
+            <p>
+                احصلي على النقاط وحققي الإنجازات
+                أثناء رحلة التعلم.
+            </p>
+
+        </div>
+
+
+        <div class="feature-card">
+
+            <div class="feature-icon">
+                🎓
+            </div>
+
+            <h3>
+                شهادات
+            </h3>
+
+            <p>
+                عند إكمال المسار التعليمي
+                تصبح الشهادة متاحة.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     المواد
+===================================================== -->
+
+<section
+    id="courses"
+    class="view-section"
+>
+
+
+    <div class="page-header">
+
+        <span>
+            📚 مكتبة الأكاديمية
+        </span>
+
+        <h1>
+            المواد والدورات
+        </h1>
+
+        <p>
+            اختاري المادة التي تريدين التعلم فيها.
+        </p>
+
+    </div>
+
+
+    <div class="courses-grid">
+
+
+        <!-- القرآن -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('القرآن الكريم')"
+        >
+
+            <div class="subject-icon">
+                📖
+            </div>
+
+            <h3>
+                القرآن الكريم
+            </h3>
+
+            <p>
+                تعلم القرآن والتلاوة والمراجعة.
+            </p>
+
+            <span>
+                4 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- التجويد -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('التجويد')"
+        >
+
+            <div class="subject-icon">
+                📚
+            </div>
+
+            <h3>
+                التجويد
+            </h3>
+
+            <p>
+                تعلم قواعد التجويد بطريقة سهلة.
+            </p>
+
+            <span>
+                8 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- العربية -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('اللغة العربية')"
+        >
+
+            <div class="subject-icon">
+                🔤
+            </div>
+
+            <h3>
+                اللغة العربية
+            </h3>
+
+            <p>
+                أساسيات اللغة العربية.
+            </p>
+
+            <span>
+                4 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- العقيدة -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('العقيدة')"
+        >
+
+            <div class="subject-icon">
+                🕌
+            </div>
+
+            <h3>
+                العقيدة
+            </h3>
+
+            <p>
+                دروس مبسطة في العقيدة الإسلامية.
+            </p>
+
+            <span>
+                4 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- الفقه -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('الفقه')"
+        >
+
+            <div class="subject-icon">
+                ⚖️
+            </div>
+
+            <h3>
+                الفقه
+            </h3>
+
+            <p>
+                التعرف على أساسيات الفقه والعبادات.
+            </p>
+
+            <span>
+                4 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- الحديث -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('الحديث')"
+        >
+
+            <div class="subject-icon">
+                📜
+            </div>
+
+            <h3>
+                الحديث
+            </h3>
+
+            <p>
+                تعلم الحديث وفهم معانيه.
+            </p>
+
+            <span>
+                4 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- التفسير -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('التفسير')"
+        >
+
+            <div class="subject-icon">
+                🌙
+            </div>
+
+            <h3>
+                التفسير
+            </h3>
+
+            <p>
+                فهم معاني الآيات بطريقة مبسطة.
+            </p>
+
+            <span>
+                4 دروس
+            </span>
+
+        </div>
+
+
+
+        <!-- المسابقة -->
+
+        <div
+            class="subject-card"
+            onclick="openCourse('مسابقة معلم وطالب')"
+        >
+
+            <div class="subject-icon">
+                🏆
+            </div>
+
+            <h3>
+                مسابقة معلم وطالب
+            </h3>
+
+            <p>
+                تحديات واختبارات تعليمية.
+            </p>
+
+            <span>
+                4 تحديات
+            </span>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     الإنجازات
+===================================================== -->
+
+<section
+    id="achievements"
+    class="view-section"
+>
+
+
+    <div class="page-header">
+
+        <span>
+            🏆 رحلة الإنجاز
+        </span>
+
+        <h1>
+            إنجازاتي
+        </h1>
+
+        <p>
+            تابعي تقدمك واجمعي النقاط.
+        </p>
+
+    </div>
+
+
+    <div class="achievement-stats">
+
+
+        <div class="stat-card">
+
+            <span>
+                ⭐
+            </span>
+
+            <strong id="achievementPoints">
+                0
+            </strong>
+
+            <small>
+                نقاط الاختبارات
+            </small>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <span>
+                📖
+            </span>
+
+            <strong id="completedLessonsCount">
+                0
+            </strong>
+
+            <small>
+                دروس مكتملة
+            </small>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <span>
+                🧠
+            </span>
+
+            <strong id="quizAttemptsCount">
+                0
+            </strong>
+
+            <small>
+                محاولات الاختبار
+            </small>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <span>
+                📊
+            </span>
+
+            <strong id="overallProgress">
+                0%
+            </strong>
+
+            <small>
+                التقدم الكلي
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="achievement-level">
+
+        <h2>
+            مستواك الحالي
+        </h2>
+
+        <div
+            id="studentAchievementLevel"
+            class="level-badge"
+        >
+            مبتدئ
+        </div>
+
+    </div>
+
+
+
+    <div class="badges-grid">
+
+
+        <div class="badge-card">
+
+            <div>
+                🌱
+            </div>
+
+            <h3>
+                أول خطوة
+            </h3>
+
+            <div class="progress-bar">
+
+                <span
+                    id="firstLessonBadgeProgress"
+                ></span>
+
+            </div>
+
+            <p id="firstLessonBadgeText">
+                ابدئي أول درس
+            </p>
+
+        </div>
+
+
+        <div class="badge-card">
+
+            <div>
+                🔥
+            </div>
+
+            <h3>
+                متعلم نشيط
+            </h3>
+
+            <div class="progress-bar">
+
+                <span
+                    id="activeLearnerProgress"
+                ></span>
+
+            </div>
+
+            <p id="activeLearnerText">
+                أكملي 3 دروس
+            </p>
+
+        </div>
+
+
+        <div class="badge-card">
+
+            <div>
+                🧠
+            </div>
+
+            <h3>
+                بطل الاختبارات
+            </h3>
+
+            <div class="progress-bar">
+
+                <span
+                    id="quizChampionProgress"
+                ></span>
+
+            </div>
+
+            <p id="quizChampionText">
+                اجمعي 100 نقطة
+            </p>
+
+        </div>
+
+
+        <div class="badge-card">
+
+            <div>
+                🌟
+            </div>
+
+            <h3>
+                نجم الأكاديمية
+            </h3>
+
+            <div class="progress-bar">
+
+                <span
+                    id="academyStarProgress"
+                ></span>
+
+            </div>
+
+            <p id="academyStarText">
+                اجمعي 200 نقطة
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="certificate-card">
+
+        <div
+            id="certificateIcon"
+            class="certificate-icon"
+        >
+            🔒
+        </div>
+
+        <h2 id="certificateTitle">
+            الشهادة
+        </h2>
+
+        <p id="certificateText">
+            أكملي جميع الدروس لفتح الشهادة.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     لوحة أسماء
+===================================================== -->
+
+<section
+    id="admin"
+    class="view-section"
+>
+
+
+    <div class="admin-header">
+
+        <span class="admin-badge">
+            👑 ASMAA MAHMOUD ADMIN
+        </span>
+
+        <h1>
+            لوحة تحكم أسماء
+        </h1>
+
+        <p>
+            أهلاً بكِ أستاذة أسماء 🌟
+        </p>
+
+    </div>
+
+
+
+    <!-- الإحصائيات -->
+
+    <div class="admin-stats">
+
+
+        <div class="admin-stat">
+
+            <span>
+                👨‍🎓
+            </span>
+
+            <strong id="totalStudentsCount">
+                0
+            </strong>
+
+            <small>
+                الطلاب
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                👩‍🏫
+            </span>
+
+            <strong>
+                0
+            </strong>
+
+            <small>
+                المعلمون
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                📚
+            </span>
+
+            <strong>
+                8
+            </strong>
+
+            <small>
+                المواد
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                📖
+            </span>
+
+            <strong id="totalLessonsCount">
+                0
+            </strong>
+
+            <small>
+                الدروس
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                🧠
+            </span>
+
+            <strong id="totalQuizzesCount">
+                0
+            </strong>
+
+            <small>
+                الاختبارات
+            </small>
+
+        </div>
+
+
+        <div class="admin-stat">
+
+            <span>
+                ⭐
+            </span>
+
+            <strong id="averagePoints">
+                0
+            </strong>
+
+            <small>
+                متوسط النقاط
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- وظائف الإدارة -->
+
+    <div class="admin-features">
+
+
+        <button
+            class="admin-feature"
+            onclick="document.getElementById('studentManagement').scrollIntoView({behavior:'smooth'})"
+        >
+
+            <span>
+                👨‍🎓
+            </span>
+
+            <strong>
+                إدارة الطلاب
+            </strong>
+
+            <small>
+                إضافة ومتابعة الطلاب
+            </small>
+
+        </button>
+
+
+
+        <button
+            class="admin-feature"
+            onclick="showAdminMessage('المعلمون','قسم إدارة المعلمين سيكون هنا.')"
+        >
+
+            <span>
+                👩‍🏫
+            </span>
+
+            <strong>
+                المعلمون
+            </strong>
+
+            <small>
+                إدارة المعلمين
+            </small>
+
+        </button>
+
+
+
+        <button
+            class="admin-feature"
+            onclick="switchView('courses')"
+        >
+
+            <span>
+                📚
+            </span>
+
+            <strong>
+                المواد والدورات
+            </strong>
+
+            <small>
+                عرض المواد التعليمية
+            </small>
+
+        </button>
+
+
+
+        <button
+    class="admin-feature"
+    onclick="document.getElementById('videoManagerModal').style.display='flex'; loadVideoLessons();"
+>
+
+            <span>
+                🎥
+            </span>
+
+            <strong>
+                الدروس والفيديوهات
+            </strong>
+
+            <small>
+                رفع فيديوهات الدروس
+            </small>
+
+        </button>
+
+
+
+        <button
+            class="admin-feature"
+            onclick="showAdminMessage('الاختبارات','قسم إدارة الاختبارات سيكون هنا.')"
+        >
+
+            <span>
+                🧠
+            </span>
+
+            <strong>
+                الاختبارات
+            </strong>
+
+            <small>
+                إدارة الاختبارات
+            </small>
+
+        </button>
+
+
+
+        <button
+            class="admin-feature"
+            onclick="switchView('achievements')"
+        >
+
+            <span>
+                🏆
+            </span>
+
+            <strong>
+                الإنجازات
+            </strong>
+
+            <small>
+                متابعة الإنجازات
+            </small>
+
+        </button>
+
+
+
+        <button
+            class="admin-feature"
+            onclick="showAdminMessage('الشهادات','قسم الشهادات سيكون هنا.')"
+        >
+
+            <span>
+                🎓
+            </span>
+
+            <strong>
+                الشهادات
+            </strong>
+
+            <small>
+                إدارة الشهادات
+            </small>
+
+        </button>
+
+
+
+        <button
+            class="admin-feature"
+            onclick="showAdminMessage('التقارير','قسم التقارير سيكون هنا.')"
+        >
+
+            <span>
+                📊
+            </span>
+
+            <strong>
+                التقارير
+            </strong>
+
+            <small>
+                تقارير الأكاديمية
+            </small>
+
+        </button>
+
+    </div>
+
+
+
+    <!-- =================================================
+         إدارة الطلاب
+    ================================================== -->
+
+    <div
+        id="studentManagement"
+        class="admin-section"
+    >
+
+        <div class="section-heading">
+
+            <span>
+                👨‍🎓 الطلاب
+            </span>
+
+            <h2>
+                إدارة الطلاب
+            </h2>
+
+        </div>
+
+
+        <form
+            id="addStudentForm"
+            onsubmit="handleAddStudent(event)"
+            class="student-form"
+        >
+
+            <input
+                id="studentName"
+                type="text"
+                placeholder="اسم الطالب"
+                required
+            >
+
+
+            <input
+                id="studentLevel"
+                type="text"
+                placeholder="المستوى"
+                required
+            >
+
+
+            <input
+                id="studentPoints"
+                type="number"
+                placeholder="النقاط"
+                min="0"
+            >
+
+
+            <button
+                type="submit"
+            >
+                ➕ إضافة طالب
+            </button>
+
+        </form>
+
+
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            #
+                        </th>
+
+                        <th>
+                            الطالب
+                        </th>
+
+                        <th>
+                            المستوى
+                        </th>
+
+                        <th>
+                            النقاط
+                        </th>
+
+                        <th>
+                            إجراء
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="studentsTableBody">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     صفحة المادة
+===================================================== -->
+
+<section
+    id="coursePage"
+    class="view-section"
+>
+
+
+    <div class="course-page-header">
+
+        <div
+            id="coursePageIcon"
+            class="course-page-icon"
+        >
+            📚
+        </div>
+
+
+        <div>
+
+            <h1 id="coursePageTitle">
+                المادة
+            </h1>
+
+            <p id="coursePageDescription">
+                وصف المادة
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="course-progress-box">
+
+        <div>
+
+            <span>
+                تقدمك في المادة
+            </span>
+
+            <strong id="courseProgressText">
+                0%
+            </strong>
+
+        </div>
+
+
+        <div class="progress-bar">
+
+            <span
+                id="courseProgress"
+            ></span>
+
+        </div>
+
+    </div>
+
+
+
+    <div
+        id="lessonsContainer"
+        class="lessons-container"
+    >
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     صفحة الدرس
+===================================================== -->
+
+<section
+    id="lessonPage"
+    class="view-section"
+>
+
+
+    <div class="lesson-header">
+
+        <span>
+            📖 الدرس
+        </span>
+
+        <h1 id="lessonTitle">
+            عنوان الدرس
+        </h1>
+
+    </div>
+
+
+
+    <!-- الفيديو -->
+
+    <div class="video-box">
+
+        <video
+            id="lessonVideo"
+            class="lesson-video"
+            controls
+            playsinline
+            preload="metadata"
+        >
+
+            <source
+                id="lessonVideoSource"
+                src=""
+                type="video/mp4"
+            >
+
+            متصفحك لا يدعم تشغيل الفيديو.
+
+        </video>
+
+
+        <div
+            id="videoEmptyState"
+            class="video-placeholder large-video"
+        >
+
+            <span>
+                🎥
+            </span>
+
+            <strong>
+                سيتم إضافة فيديو هذا الدرس
+            </strong>
+
+            <small>
+                الفيديو التعليمي سيظهر هنا
+            </small>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- شرح الدرس -->
+
+    <div class="lesson-explanation">
+
+        <h2>
+            📝 شرح الدرس
+        </h2>
+
+        <p id="lessonExplanationText">
+            شرح الدرس سيظهر هنا.
+        </p>
+
+    </div>
+
+
+
+    <div class="lesson-actions">
+
+        <button
+            id="completeLessonBtn"
+            class="primary-btn"
+            onclick="completeLesson()"
+        >
+            ✅ إكمال الدرس
+        </button>
+
+
+        <button
+            class="secondary-btn"
+            onclick="startLessonQuiz()"
+        >
+            🧠 اختبار الدرس
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     نافذة المادة
+===================================================== -->
+
+<div
+    id="courseModal"
+    class="modal"
+>
+
+
+    <div class="modal-content">
+
+        <button
+            class="modal-close"
+            onclick="closeCourse()"
+        >
+            ×
+        </button>
+
+
+        <div class="modal-icon">
+            📚
+        </div>
+
+
+        <h2 id="courseModalTitle">
+            المادة
+        </h2>
+
+
+        <p>
+            اختاري المادة لبدء التعلم.
+        </p>
+
+
+        <button
+            class="primary-btn"
+            onclick="closeCourse(); openCoursePage(currentCourse)"
+        >
+            🚀 فتح المادة
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     مدير الفيديوهات
+===================================================== -->
+
+<div
+    id="videoManagerModal"
+    class="modal"
+>
+
+
+    <div class="modal-content video-manager-box">
+
+        <button
+            class="modal-close"
+            onclick="closeVideoManager()"
+        >
+            ×
+        </button>
+
+
+        <div class="modal-icon">
+            🎥
+        </div>
+
+
+        <h2>
+            مدير فيديوهات الدروس
+        </h2>
+
+
+        <p>
+            ارفعي فيديو الدرس ليتم حفظه في الأكاديمية.
+        </p>
+
+
+
+        <div class="video-form">
+
+
+            <label>
+                المادة
+            </label>
+
+
+            <select
+                id="videoCourseSelect"
+            >
+
+                <option value="">
+                    اختاري المادة
+                </option>
+
+                <option value="القرآن الكريم">
+                    القرآن الكريم
+                </option>
+
+                <option value="التجويد">
+                    التجويد
+                </option>
+
+                <option value="اللغة العربية">
+                    اللغة العربية
+                </option>
+
+                <option value="العقيدة">
+                    العقيدة
+                </option>
+
+                <option value="الفقه">
+                    الفقه
+                </option>
+
+                <option value="الحديث">
+                    الحديث
+                </option>
+
+                <option value="التفسير">
+                    التفسير
+                </option>
+
+                <option value="مسابقة معلم وطالب">
+                    مسابقة معلم وطالب
+                </option>
+
+            </select>
+
+
+
+            <label>
+                الدرس
+            </label>
+
+
+            <select
+                id="videoLessonSelect"
+            >
+
+                <option value="">
+                    اختاري الدرس
+                </option>
+
+            </select>
+
+
+
+            <label>
+                فيديو الدرس
+            </label>
+
+
+            <input
+                id="lessonVideoFile"
+                type="file"
+                accept="video/mp4"
+            >
+
+
+            <button
+                type="button"
+                class="primary-btn"
+                onclick="saveLessonVideo()"
+            >
+                ☁️ رفع الفيديو
+            </button>
+
+
+            <div
+                id="videoUploadMessage"
+                class="video-upload-message"
+            ></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     JavaScript
+===================================================== -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
